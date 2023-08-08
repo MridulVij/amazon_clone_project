@@ -32,6 +32,12 @@ class AuthService {
         token: '',
         cart: [],
       );
+      //      "bcryptjs": "^2.4.3",
+      // "dotenv": "^16.3.1",
+      // "express": "^4.18.2",
+      // "http": "^0.0.1-security",
+      // "jsonwebtoken": "^9.0.0",
+      // "mongoose": "^7.1.0"
       http.Response res = await http.post(
         Uri.parse('$uri/api/signup'),
         body: user.toJson(),
